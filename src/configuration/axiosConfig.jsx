@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const axiosConfig = axios.create({
-    baseURL: process.env.REACT_APP_BASEURL ||'https://ea-4-despliegued.onrender.com'
+    baseURL: process.env.REACT_APP_BASEURL ||'https://ea-4-despliegueba.onrender.com/api/'
 })
 
 axiosConfig.interceptors.response.use(
